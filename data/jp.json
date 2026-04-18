@@ -1,0 +1,3269 @@
+{
+  "updated": "2026-04-18",
+  "expressway": [
+    {
+      "ref": "E1A",
+      "name": "新名神高速道路",
+      "name_en": "Shin-Meishin Expressway",
+      "wikidata": "Q7497118",
+      "osm_id": 4454581
+    },
+    {
+      "ref": "E1",
+      "name": "東名高速道路（下り）",
+      "name_en": "Tomei Expressway (outbound)",
+      "wikidata": "Q1135694",
+      "osm_id": 7523774
+    },
+    {
+      "ref": "E2A",
+      "name": "中国自動車道",
+      "name_en": "Chūgoku Expressway",
+      "wikidata": "Q1091207",
+      "osm_id": 4255833
+    },
+    {
+      "ref": "E2",
+      "name": "広島岩国道路",
+      "name_en": "Hiroshima Iwakuni Road",
+      "wikidata": "Q11484522",
+      "osm_id": 7877419
+    },
+    {
+      "ref": "E3",
+      "name": "九州自動車道",
+      "name_en": "Kyushu Expressway",
+      "wikidata": "Q1060803",
+      "osm_id": 7354731
+    },
+    {
+      "ref": "E3A",
+      "name": "南九州西回り自動車道",
+      "name_en": "Minamikyushu Expressway",
+      "wikidata": "Q5375152",
+      "osm_id": 7369717
+    },
+    {
+      "ref": "E4A",
+      "name": "八戸自動車道",
+      "name_en": "Hachinohe Expressway",
+      "wikidata": "Q5637070",
+      "osm_id": 945312
+    },
+    {
+      "ref": "E5",
+      "name": "函館新道",
+      "name_en": "Hakodate Shindo",
+      "wikidata": "Q11396009",
+      "osm_id": 2068812
+    },
+    {
+      "ref": "E5A",
+      "name": "札樽自動車道",
+      "name_en": "Sasson Expressway",
+      "wikidata": "Q867986",
+      "osm_id": 4163663
+    },
+    {
+      "ref": "E6",
+      "name": "常磐自動車道",
+      "name_en": "Joban Expressway",
+      "wikidata": "Q1059875",
+      "osm_id": 1485270
+    },
+    {
+      "ref": "E9",
+      "name": "山陰自動車道",
+      "name_en": "San-In Expressway",
+      "wikidata": "Q5608657",
+      "osm_id": 8760080
+    },
+    {
+      "ref": "E14",
+      "name": "館山自動車道",
+      "name_en": "Tateyama Expressway",
+      "wikidata": "Q7688020",
+      "osm_id": 4147844
+    },
+    {
+      "ref": "E17",
+      "name": "関越自動車道",
+      "name_en": "Kan-etsu Expressway",
+      "wikidata": "Q1059893",
+      "osm_id": 2370076
+    },
+    {
+      "ref": "E29",
+      "name": "播磨自動車道",
+      "name_en": "Harima Expressway",
+      "wikidata": "Q11498746",
+      "osm_id": 4260437
+    },
+    {
+      "ref": "E39",
+      "name": "旭川紋別自動車道",
+      "name_en": "Asahikawa-Monbetsu Expressway",
+      "wikidata": "Q6157584",
+      "osm_id": 6630650
+    },
+    {
+      "ref": "E41",
+      "name": "能越自動車道",
+      "name_en": "Noetsu Expressway",
+      "wikidata": "Q6157635",
+      "osm_id": 3948024
+    },
+    {
+      "ref": "E49",
+      "name": "磐越自動車道",
+      "name_en": "Ban-etsu Expressway",
+      "wikidata": "Q1059200",
+      "osm_id": 4103402
+    },
+    {
+      "ref": "E50",
+      "name": "北関東自動車道東行き",
+      "name_en": "Kita-Kanto Expressway Eastbound",
+      "wikidata": "Q11404370",
+      "osm_id": 5730331
+    },
+    {
+      "ref": "E51",
+      "name": "東関東自動車道",
+      "name_en": "Higashi-Kanto Expressway",
+      "wikidata": "Q864875",
+      "osm_id": 4124773
+    },
+    {
+      "ref": "E52",
+      "name": "中部横断自動車道",
+      "name_en": "Chubu-Odan Expressway",
+      "wikidata": "Q5119013",
+      "osm_id": 7516854
+    },
+    {
+      "ref": "E55",
+      "name": "高知東部自動車道",
+      "name_en": "Kochi-Tobu Expressway",
+      "wikidata": "Q11672390",
+      "osm_id": 9427237
+    },
+    {
+      "ref": "E59",
+      "name": "函館江差自動車道",
+      "name_en": "Hakodate Esashi Expressway",
+      "wikidata": "Q11396018",
+      "osm_id": 4180400
+    },
+    {
+      "ref": "E62",
+      "name": "深川留萌自動車道",
+      "name_en": "Fukagawa-Rumoi Expressway",
+      "wikidata": "Q11560018",
+      "osm_id": 6612447
+    },
+    {
+      "ref": "E65",
+      "name": "新空港自動車道",
+      "name_en": "Shin-Kūkō Expressway",
+      "wikidata": "Q7497115",
+      "osm_id": 10075304
+    },
+    {
+      "ref": "E70",
+      "name": "東駿河湾環状道路",
+      "name_en": "Higashi-Sugugawan Kanjo Road",
+      "wikidata": "Q11528770",
+      "osm_id": 2143216
+    },
+    {
+      "ref": "E85",
+      "name": "小田原厚木道路",
+      "name_en": "Odawara-Atsugi Road",
+      "wikidata": "Q7077283",
+      "osm_id": 34190
+    },
+    {
+      "ref": "E97",
+      "name": "大分空港道路",
+      "name_en": "Oita Airport Road",
+      "wikidata": "Q10933742",
+      "osm_id": 7989481
+    },
+    {
+      "ref": "C3",
+      "name": "東京外環自動車道",
+      "name_en": "Tokyo Gaikan Expressway",
+      "wikidata": "Q8192424",
+      "osm_id": 3952390
+    },
+    {
+      "ref": "C4",
+      "name": "圏央道 外回り",
+      "name_en": "Ken-O Expressway (outside)",
+      "wikidata": "Q5957728",
+      "osm_id": 10382403
+    },
+    {
+      "ref": "CA",
+      "name": "東京湾アクアライン",
+      "name_en": "Tokyo Bay Aqua-Line",
+      "wikidata": "Q137728",
+      "osm_id": 9277739
+    }
+  ],
+  "national": [
+    {
+      "ref": "1",
+      "name": "国道1号",
+      "name_en": "National Highway Route 1",
+      "wikidata": "Q1191191",
+      "osm_id": 32989
+    },
+    {
+      "ref": "2",
+      "name": "西広島バイパス",
+      "name_en": "Nishihiroshima Bypass",
+      "wikidata": "",
+      "osm_id": 1531611
+    },
+    {
+      "ref": "3",
+      "name": "国道3号",
+      "name_en": "National Highway Route 3",
+      "wikidata": "Q1138454",
+      "osm_id": 2061678
+    },
+    {
+      "ref": "4",
+      "name": "国道4号",
+      "name_en": "National Highway Route 4",
+      "wikidata": "Q1055023",
+      "osm_id": 416684
+    },
+    {
+      "ref": "5",
+      "name": "国道5号",
+      "name_en": "National Highway Route 5",
+      "wikidata": "Q588948",
+      "osm_id": 33009
+    },
+    {
+      "ref": "6",
+      "name": "仙台東部道路",
+      "name_en": "Sendai-Tobu Road",
+      "wikidata": "Q11378020",
+      "osm_id": 1485271
+    },
+    {
+      "ref": "7",
+      "name": "国道7号",
+      "name_en": "National Highway Route 7",
+      "wikidata": "Q1055550",
+      "osm_id": 2069116
+    },
+    {
+      "ref": "8",
+      "name": "入善黒部バイパス",
+      "name_en": "",
+      "wikidata": "Q11388876",
+      "osm_id": 2076138
+    },
+    {
+      "ref": "9",
+      "name": "国道9号",
+      "name_en": "National Highway Route 9",
+      "wikidata": "Q1055522",
+      "osm_id": 2076294
+    },
+    {
+      "ref": "10",
+      "name": "国道10号",
+      "name_en": "National Highway Route 10",
+      "wikidata": "Q873337",
+      "osm_id": 2082723
+    },
+    {
+      "ref": "11",
+      "name": "国道11号",
+      "name_en": "National Highway Route 11",
+      "wikidata": "Q1138640",
+      "osm_id": 12579
+    },
+    {
+      "ref": "12",
+      "name": "旭川新道",
+      "name_en": "Asahikawa New Highway",
+      "wikidata": "Q11511754",
+      "osm_id": 2097430
+    },
+    {
+      "ref": "13",
+      "name": "国道13号",
+      "name_en": "National Highway Route 13",
+      "wikidata": "Q1056193",
+      "osm_id": 2098597
+    },
+    {
+      "ref": "14",
+      "name": "国道14号",
+      "name_en": "National Highway Route 14",
+      "wikidata": "Q1056176",
+      "osm_id": 2098903
+    },
+    {
+      "ref": "15",
+      "name": "国道15号",
+      "name_en": "National Highway Route 15",
+      "wikidata": "Q1045667",
+      "osm_id": 2107249
+    },
+    {
+      "ref": "16",
+      "name": "国道16号",
+      "name_en": "National Highway Route 16",
+      "wikidata": "Q1058005",
+      "osm_id": 18187
+    },
+    {
+      "ref": "17",
+      "name": "国道17号",
+      "name_en": "National Highway Route 17",
+      "wikidata": "Q1057683",
+      "osm_id": 2150021
+    },
+    {
+      "ref": "18",
+      "name": "国道18号",
+      "name_en": "National Highway Route 18",
+      "wikidata": "Q1057674",
+      "osm_id": 964698
+    },
+    {
+      "ref": "19",
+      "name": "松本バイパス",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 9039442
+    },
+    {
+      "ref": "20",
+      "name": "国道20号",
+      "name_en": "National Highway Route 20",
+      "wikidata": "Q430608",
+      "osm_id": 21087
+    },
+    {
+      "ref": "21",
+      "name": "国道21号",
+      "name_en": "National Highway Route 21",
+      "wikidata": "Q5357384",
+      "osm_id": 905615
+    },
+    {
+      "ref": "22",
+      "name": "国道22号",
+      "name_en": "National Highway Route 22",
+      "wikidata": "Q5357576",
+      "osm_id": 2191283
+    },
+    {
+      "ref": "23",
+      "name": "岡崎バイパス",
+      "name_en": "Okazaki Bypass",
+      "wikidata": "Q132146449",
+      "osm_id": 2281009
+    },
+    {
+      "ref": "24",
+      "name": "国道24号",
+      "name_en": "National Highway Route 24",
+      "wikidata": "Q1058171",
+      "osm_id": 2281186
+    },
+    {
+      "ref": "25",
+      "name": "国道25号",
+      "name_en": "National Highway Route 25",
+      "wikidata": "Q900338",
+      "osm_id": 1247317
+    },
+    {
+      "ref": "26",
+      "name": "国道26号",
+      "name_en": "National Highway Route 26",
+      "wikidata": "Q900533",
+      "osm_id": 2283740
+    },
+    {
+      "ref": "27",
+      "name": "下山バイパス",
+      "name_en": "Shimoyama Bypass",
+      "wikidata": "",
+      "osm_id": 2578409
+    },
+    {
+      "ref": "28",
+      "name": "国道28号",
+      "name_en": "National Highway Route 28",
+      "wikidata": "Q6157113",
+      "osm_id": 12592
+    },
+    {
+      "ref": "29",
+      "name": "国道29号",
+      "name_en": "National Highway Route 29",
+      "wikidata": "Q6157142",
+      "osm_id": 2773842
+    },
+    {
+      "ref": "30",
+      "name": "国道30号",
+      "name_en": "National Highway Route 30",
+      "wikidata": "Q11421442",
+      "osm_id": 59477
+    },
+    {
+      "ref": "31",
+      "name": "国道31号",
+      "name_en": "National Highway Route 31",
+      "wikidata": "",
+      "osm_id": 1957766
+    },
+    {
+      "ref": "32",
+      "name": "国道32号",
+      "name_en": "National Highway Route 32",
+      "wikidata": "Q6157226",
+      "osm_id": 12585
+    },
+    {
+      "ref": "33",
+      "name": "国道33号",
+      "name_en": "National Highway Route 33",
+      "wikidata": "Q6157264",
+      "osm_id": 149017
+    },
+    {
+      "ref": "34",
+      "name": "国道34号",
+      "name_en": "National Highway Route 32",
+      "wikidata": "Q6157284",
+      "osm_id": 2829210
+    },
+    {
+      "ref": "35",
+      "name": "国道35号",
+      "name_en": "National Highway Route 35",
+      "wikidata": "Q6157306",
+      "osm_id": 2829437
+    },
+    {
+      "ref": "36",
+      "name": "国道36号",
+      "name_en": "National Highway Route 36",
+      "wikidata": "Q6157345",
+      "osm_id": 130867
+    },
+    {
+      "ref": "37",
+      "name": "国道37号",
+      "name_en": "National Highway Route 37",
+      "wikidata": "Q6157365",
+      "osm_id": 33017
+    },
+    {
+      "ref": "38",
+      "name": "釧路新道",
+      "name_en": "Kushiro Bypass",
+      "wikidata": "Q16144803",
+      "osm_id": 2863335
+    },
+    {
+      "ref": "39",
+      "name": "国道39号",
+      "name_en": "National Highway Route 39",
+      "wikidata": "Q6157415",
+      "osm_id": 2864639
+    },
+    {
+      "ref": "40",
+      "name": "国道40号",
+      "name_en": "National Highway Route 40",
+      "wikidata": "Q6157444",
+      "osm_id": 2865301
+    },
+    {
+      "ref": "41",
+      "name": "国道41号",
+      "name_en": "National Highway Route 41",
+      "wikidata": "Q6157478",
+      "osm_id": 31351
+    },
+    {
+      "ref": "42",
+      "name": "国道42号",
+      "name_en": "National Highway Route 42",
+      "wikidata": "Q2003243",
+      "osm_id": 2877152
+    },
+    {
+      "ref": "43",
+      "name": "国道43号",
+      "name_en": "National Highway Route 43",
+      "wikidata": "Q6157520",
+      "osm_id": 2878993
+    },
+    {
+      "ref": "44",
+      "name": "国道44号",
+      "name_en": "National Highway Route 44",
+      "wikidata": "Q6157547",
+      "osm_id": 2885462
+    },
+    {
+      "ref": "45",
+      "name": "国道45号",
+      "name_en": "National Highway Route 45",
+      "wikidata": "Q6157578",
+      "osm_id": 2887904
+    },
+    {
+      "ref": "46",
+      "name": "国道46号",
+      "name_en": "National Highway Route 46",
+      "wikidata": "Q6157611",
+      "osm_id": 443923
+    },
+    {
+      "ref": "47",
+      "name": "新庄南バイパス",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 2938280
+    },
+    {
+      "ref": "48",
+      "name": "仙台西道路",
+      "name_en": "",
+      "wikidata": "Q11378064",
+      "osm_id": 2938899
+    },
+    {
+      "ref": "49",
+      "name": "一般国道49号揚川改良旧道区間",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 2939532
+    },
+    {
+      "ref": "50",
+      "name": "水戸バイパス",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 2954629
+    },
+    {
+      "ref": "51",
+      "name": "北千葉拡幅",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 2955358
+    },
+    {
+      "ref": "52",
+      "name": "甲西道路",
+      "name_en": "kousai road",
+      "wikidata": "",
+      "osm_id": 2957015
+    },
+    {
+      "ref": "53",
+      "name": "津山バイパス",
+      "name_en": "Tsuyama Bypass",
+      "wikidata": "",
+      "osm_id": 2957131
+    },
+    {
+      "ref": "54",
+      "name": "国道54号",
+      "name_en": "National Highway Route 54",
+      "wikidata": "Q6157736",
+      "osm_id": 2957976
+    },
+    {
+      "ref": "55",
+      "name": "国道55号",
+      "name_en": "National Highway Route 55",
+      "wikidata": "Q6157738",
+      "osm_id": 12583
+    },
+    {
+      "ref": "56",
+      "name": "国道56号",
+      "name_en": "National Highway Route 56",
+      "wikidata": "Q5644810",
+      "osm_id": 12584
+    },
+    {
+      "ref": "57",
+      "name": "中九州横断道路",
+      "name_en": "Naka-Kyushu Odan Road",
+      "wikidata": "Q11362883",
+      "osm_id": 2971981
+    },
+    {
+      "ref": "58",
+      "name": "国道58号",
+      "name_en": "National Highway Route 58",
+      "wikidata": "Q6157743",
+      "osm_id": 2972065
+    },
+    {
+      "ref": "101",
+      "name": "国道101号",
+      "name_en": "National Highway Route 101",
+      "wikidata": "Q6156701",
+      "osm_id": 2974952
+    },
+    {
+      "ref": "102",
+      "name": "奥入瀬バイパス",
+      "name_en": "oirase bypass",
+      "wikidata": "",
+      "osm_id": 2975091
+    },
+    {
+      "ref": "103",
+      "name": "宇樽部バイパス旧道区間",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 2988612
+    },
+    {
+      "ref": "104",
+      "name": "国道104号",
+      "name_en": "National Highway Route 104",
+      "wikidata": "Q6156706",
+      "osm_id": 3066227
+    },
+    {
+      "ref": "105",
+      "name": "国道105号",
+      "name_en": "National Highway Route 105",
+      "wikidata": "Q6156710",
+      "osm_id": 2937948
+    },
+    {
+      "ref": "106",
+      "name": "国道106号",
+      "name_en": "National Highway Route 106",
+      "wikidata": "Q6156711",
+      "osm_id": 3066928
+    },
+    {
+      "ref": "107",
+      "name": "国道107号",
+      "name_en": "National Highway Route 107",
+      "wikidata": "Q6156716",
+      "osm_id": 3069619
+    },
+    {
+      "ref": "108",
+      "name": "国道108号",
+      "name_en": "National Highway Route 108",
+      "wikidata": "Q6156718",
+      "osm_id": 3118577
+    },
+    {
+      "ref": "112",
+      "name": "月山道路",
+      "name_en": "Gasan Highway",
+      "wikidata": "Q11516053",
+      "osm_id": 3118834
+    },
+    {
+      "ref": "113",
+      "name": "ござれや阿賀橋",
+      "name_en": "Kozareya-Aga Bridge",
+      "wikidata": "",
+      "osm_id": 3128397
+    },
+    {
+      "ref": "114",
+      "name": "国道114号",
+      "name_en": "National Highway Route 114",
+      "wikidata": "Q6156727",
+      "osm_id": 3128448
+    },
+    {
+      "ref": "115",
+      "name": "相馬南バイパス",
+      "name_en": "souma-south bypass",
+      "wikidata": "",
+      "osm_id": 3129174
+    },
+    {
+      "ref": "116",
+      "name": "新潟西バイパス",
+      "name_en": "Niigata-west bypass",
+      "wikidata": "Q67267544",
+      "osm_id": 389055
+    },
+    {
+      "ref": "117",
+      "name": "替佐静間バイパス",
+      "name_en": "kaesa-shizuma bypass",
+      "wikidata": "",
+      "osm_id": 3189308
+    },
+    {
+      "ref": "118",
+      "name": "若松西バイパス",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 3189378
+    },
+    {
+      "ref": "119",
+      "name": "宇都宮北道路",
+      "name_en": "Utsunomiya-north Road",
+      "wikidata": "",
+      "osm_id": 3217181
+    },
+    {
+      "ref": "120",
+      "name": "国道120号",
+      "name_en": "National Highway Route 120",
+      "wikidata": "Q5362009",
+      "osm_id": 3217302
+    },
+    {
+      "ref": "121",
+      "name": "今市インターチェンジ支線",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 3218025
+    },
+    {
+      "ref": "122",
+      "name": "国道122号",
+      "name_en": "National Highway Route 122",
+      "wikidata": "Q6156748",
+      "osm_id": 3248776
+    },
+    {
+      "ref": "123",
+      "name": "国道123号",
+      "name_en": "National Highway Route 123",
+      "wikidata": "Q6156750",
+      "osm_id": 3262076
+    },
+    {
+      "ref": "124",
+      "name": "国道124号",
+      "name_en": "National Highway Route 124",
+      "wikidata": "Q11421405",
+      "osm_id": 6604490
+    },
+    {
+      "ref": "125",
+      "name": "国道125号",
+      "name_en": "National Highway Route 125",
+      "wikidata": "Q6156756",
+      "osm_id": 9002996
+    },
+    {
+      "ref": "126",
+      "name": "銚子連絡道路",
+      "name_en": "Choshi Connecting Road",
+      "wikidata": "",
+      "osm_id": 7540512
+    },
+    {
+      "ref": "127",
+      "name": "富津館山道路",
+      "name_en": "Futtsu-Tateyama Road",
+      "wikidata": "Q5510580",
+      "osm_id": 4109776
+    },
+    {
+      "ref": "128",
+      "name": "大網バイパス",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 9069152
+    },
+    {
+      "ref": "129",
+      "name": "国道129号",
+      "name_en": "National Highway Route 129",
+      "wikidata": "Q6156764",
+      "osm_id": 3846566
+    },
+    {
+      "ref": "130",
+      "name": "国道130号",
+      "name_en": "National Highway Route 130",
+      "wikidata": "Q6156766",
+      "osm_id": 3767038
+    },
+    {
+      "ref": "131",
+      "name": "国道131号",
+      "name_en": "National Highway Route 131",
+      "wikidata": "Q6156768",
+      "osm_id": 3773599
+    },
+    {
+      "ref": "132",
+      "name": "国道132号",
+      "name_en": "National Highway Route 132",
+      "wikidata": "Q11421407",
+      "osm_id": 2665187
+    },
+    {
+      "ref": "133",
+      "name": "国道133号",
+      "name_en": "National Highway Route 133",
+      "wikidata": "Q6156773",
+      "osm_id": 3770942
+    },
+    {
+      "ref": "134",
+      "name": "国道134号",
+      "name_en": "National Highway Route 134",
+      "wikidata": "Q6156776",
+      "osm_id": 31118
+    },
+    {
+      "ref": "135",
+      "name": "国道135号",
+      "name_en": "National Highway Route 135",
+      "wikidata": "Q6156779",
+      "osm_id": 3639261
+    },
+    {
+      "ref": "136",
+      "name": "函南～三島バイパス",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 9077398
+    },
+    {
+      "ref": "137",
+      "name": "国道137号",
+      "name_en": "National Highway Route 137",
+      "wikidata": "Q6156783",
+      "osm_id": 3908565
+    },
+    {
+      "ref": "138",
+      "name": "須走道路",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 9081056
+    },
+    {
+      "ref": "139",
+      "name": "国道139号",
+      "name_en": "National Route 139",
+      "wikidata": "Q11421408",
+      "osm_id": 8842101
+    },
+    {
+      "ref": "140",
+      "name": "皆野寄居バイパス",
+      "name_en": "",
+      "wikidata": "Q11580987",
+      "osm_id": 1249175
+    },
+    {
+      "ref": "141",
+      "name": "国道141号",
+      "name_en": "National Highway Route 141",
+      "wikidata": "Q11421410",
+      "osm_id": 965538
+    },
+    {
+      "ref": "142",
+      "name": "国道142号",
+      "name_en": "National Highway Route 142",
+      "wikidata": "Q6156795",
+      "osm_id": 6518912
+    },
+    {
+      "ref": "143",
+      "name": "国道143号",
+      "name_en": "National Highway Route 143",
+      "wikidata": "Q6156797",
+      "osm_id": 2124106
+    },
+    {
+      "ref": "144",
+      "name": "国道144号",
+      "name_en": "National Highway Route 144",
+      "wikidata": "Q6156798",
+      "osm_id": 965533
+    },
+    {
+      "ref": "145",
+      "name": "長野原バイパス",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 3591807
+    },
+    {
+      "ref": "146",
+      "name": "国道146号",
+      "name_en": "National Highway Route 146",
+      "wikidata": "Q6156804",
+      "osm_id": 3846790
+    },
+    {
+      "ref": "147",
+      "name": "国道147号",
+      "name_en": "National Highway Route 147",
+      "wikidata": "Q6156805",
+      "osm_id": 2104795
+    },
+    {
+      "ref": "148",
+      "name": "国道148号",
+      "name_en": "National Highway Route 148",
+      "wikidata": "Q6156807",
+      "osm_id": 3862939
+    },
+    {
+      "ref": "149",
+      "name": "国道149号",
+      "name_en": "National Highway Route 149",
+      "wikidata": "Q6156809",
+      "osm_id": 3770972
+    },
+    {
+      "ref": "150",
+      "name": "掛塚バイパス",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 9108284
+    },
+    {
+      "ref": "151",
+      "name": "新城バイパス",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 9134327
+    },
+    {
+      "ref": "152",
+      "name": "国道152号",
+      "name_en": "National Highway Route 152",
+      "wikidata": "Q6156814",
+      "osm_id": 53798
+    },
+    {
+      "ref": "153",
+      "name": "箕輪バイパス",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 2713570
+    },
+    {
+      "ref": "154",
+      "name": "国道154号",
+      "name_en": "National Highway Route 154",
+      "wikidata": "Q6156823",
+      "osm_id": 3786290
+    },
+    {
+      "ref": "155",
+      "name": "国道155号",
+      "name_en": "National Highway Route 155",
+      "wikidata": "Q6156825",
+      "osm_id": 8438979
+    },
+    {
+      "ref": "156",
+      "name": "国道156号",
+      "name_en": "National Highway Route 156",
+      "wikidata": "Q6156829",
+      "osm_id": 8519028
+    },
+    {
+      "ref": "157",
+      "name": "国道157号",
+      "name_en": "National Highway Route 157",
+      "wikidata": "Q6156827",
+      "osm_id": 8546711
+    },
+    {
+      "ref": "158",
+      "name": "永平寺大野道路",
+      "name_en": "",
+      "wikidata": "Q11367325",
+      "osm_id": 9141158
+    },
+    {
+      "ref": "159",
+      "name": "国道159号",
+      "name_en": "National Highway Route 159",
+      "wikidata": "Q6156832",
+      "osm_id": 8634030
+    },
+    {
+      "ref": "160",
+      "name": "国道160号",
+      "name_en": "National Highway Route 160",
+      "wikidata": "Q6156837",
+      "osm_id": 8643289
+    },
+    {
+      "ref": "161",
+      "name": "湖西道路",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 7451699
+    },
+    {
+      "ref": "162",
+      "name": "周山道路",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 9143479
+    },
+    {
+      "ref": "163",
+      "name": "島ヶ原バイパス",
+      "name_en": "Shimagahara Bypass",
+      "wikidata": "",
+      "osm_id": 9144398
+    },
+    {
+      "ref": "164",
+      "name": "国道164号",
+      "name_en": "National Highway Route 164",
+      "wikidata": "Q6156844",
+      "osm_id": 3771120
+    },
+    {
+      "ref": "165",
+      "name": "国道165号",
+      "name_en": "National Highway Route 165",
+      "wikidata": "Q6156846",
+      "osm_id": 8360680
+    },
+    {
+      "ref": "166",
+      "name": "国道166号",
+      "name_en": "National Highway Route 166",
+      "wikidata": "Q11421414",
+      "osm_id": 8798843
+    },
+    {
+      "ref": "167",
+      "name": "国道167号",
+      "name_en": "National Highway Route 167",
+      "wikidata": "Q367033",
+      "osm_id": 8253434
+    },
+    {
+      "ref": "168",
+      "name": "国道168号",
+      "name_en": "National Highway Route 168",
+      "wikidata": "Q2556495",
+      "osm_id": 8338767
+    },
+    {
+      "ref": "169",
+      "name": "国道169号",
+      "name_en": "National Highway Route 169",
+      "wikidata": "Q4499760",
+      "osm_id": 7790754
+    },
+    {
+      "ref": "170",
+      "name": "国道170号",
+      "name_en": "National Highway Route 170",
+      "wikidata": "Q6156852",
+      "osm_id": 8810155
+    },
+    {
+      "ref": "171",
+      "name": "池田バイパス",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 9316268
+    },
+    {
+      "ref": "172",
+      "name": "国道172号",
+      "name_en": "National Highway Route 172",
+      "wikidata": "Q6156855",
+      "osm_id": 3786705
+    },
+    {
+      "ref": "174",
+      "name": "国道174号",
+      "name_en": "National Highway Route 174",
+      "wikidata": "Q855536",
+      "osm_id": 3767143
+    },
+    {
+      "ref": "175",
+      "name": "西脇バイパス",
+      "name_en": "Nishiwaki Bypass",
+      "wikidata": "",
+      "osm_id": 9349685
+    },
+    {
+      "ref": "176",
+      "name": "柏原バイパス",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 9349808
+    },
+    {
+      "ref": "177",
+      "name": "国道177号",
+      "name_en": "National Highway Route 177",
+      "wikidata": "Q6156862",
+      "osm_id": 3767309
+    },
+    {
+      "ref": "178",
+      "name": "国道178号",
+      "name_en": "National Highway Route 178",
+      "wikidata": "Q5360000",
+      "osm_id": 8385407
+    },
+    {
+      "ref": "179",
+      "name": "国道179号",
+      "name_en": "National Highway Route 179",
+      "wikidata": "Q6156867",
+      "osm_id": 8385532
+    },
+    {
+      "ref": "180",
+      "name": "国道180号",
+      "name_en": "National Highway Route 180",
+      "wikidata": "Q6156873",
+      "osm_id": 7757831
+    },
+    {
+      "ref": "181",
+      "name": "国道181号",
+      "name_en": "National Highway Route 181",
+      "wikidata": "Q6156870",
+      "osm_id": 7756814
+    },
+    {
+      "ref": "182",
+      "name": "国道182号",
+      "name_en": "National Highway Route 182",
+      "wikidata": "Q6156875",
+      "osm_id": 8386008
+    },
+    {
+      "ref": "183",
+      "name": "国道183号",
+      "name_en": "National Highway Route 183",
+      "wikidata": "Q6156877",
+      "osm_id": 3500263
+    },
+    {
+      "ref": "184",
+      "name": "志津見バイパス",
+      "name_en": "Shitsumi Bypass",
+      "wikidata": "",
+      "osm_id": 9385076
+    },
+    {
+      "ref": "185",
+      "name": "国道185号",
+      "name_en": "National Highway Route 185",
+      "wikidata": "Q6156881",
+      "osm_id": 1282122
+    },
+    {
+      "ref": "186",
+      "name": "国道186号",
+      "name_en": "National Highway Route 186",
+      "wikidata": "Q6156885",
+      "osm_id": 4544619
+    },
+    {
+      "ref": "187",
+      "name": "国道187号",
+      "name_en": "National Highway Route 187",
+      "wikidata": "Q6156888",
+      "osm_id": 4165287
+    },
+    {
+      "ref": "188",
+      "name": "国道188号",
+      "name_en": "National Highway Route 188",
+      "wikidata": "Q6156889",
+      "osm_id": 3717459
+    },
+    {
+      "ref": "189",
+      "name": "国道189号",
+      "name_en": "National Highway Route 189",
+      "wikidata": "Q6156893",
+      "osm_id": 3771004
+    },
+    {
+      "ref": "190",
+      "name": "床波バイパス",
+      "name_en": "Tokonami Bypass",
+      "wikidata": "",
+      "osm_id": 9400754
+    },
+    {
+      "ref": "191",
+      "name": "国道191号",
+      "name_en": "National Highway Route 191",
+      "wikidata": "Q6156899",
+      "osm_id": 3904021
+    },
+    {
+      "ref": "192",
+      "name": "国道192号",
+      "name_en": "National Highway Route 192",
+      "wikidata": "Q6156903",
+      "osm_id": 12586
+    },
+    {
+      "ref": "193",
+      "name": "国道193号",
+      "name_en": "National Highway Route 193",
+      "wikidata": "Q11421418",
+      "osm_id": 12893
+    },
+    {
+      "ref": "194",
+      "name": "国道194号",
+      "name_en": "National Highway Route 194",
+      "wikidata": "Q6156909",
+      "osm_id": 149016
+    },
+    {
+      "ref": "195",
+      "name": "国道195号",
+      "name_en": "National Highway Route 195",
+      "wikidata": "Q6156911",
+      "osm_id": 12582
+    },
+    {
+      "ref": "196",
+      "name": "今治バイパス",
+      "name_en": "Imabari Bypass",
+      "wikidata": "",
+      "osm_id": 9444472
+    },
+    {
+      "ref": "197",
+      "name": "名坂道路",
+      "name_en": "NASAKA ROAD",
+      "wikidata": "",
+      "osm_id": 2824306
+    },
+    {
+      "ref": "198",
+      "name": "国道198号",
+      "name_en": "National Highway Route 198",
+      "wikidata": "Q6156916",
+      "osm_id": 9483543
+    },
+    {
+      "ref": "199",
+      "name": "本城バイパス",
+      "name_en": "Honjou Bypass",
+      "wikidata": "",
+      "osm_id": 9483642
+    },
+    {
+      "ref": "200",
+      "name": "冷水道路",
+      "name_en": "",
+      "wikidata": "Q11395340",
+      "osm_id": 2326876
+    },
+    {
+      "ref": "201",
+      "name": "国道201号",
+      "name_en": "National Highway Route 201",
+      "wikidata": "Q11421419",
+      "osm_id": 7106297
+    },
+    {
+      "ref": "202",
+      "name": "西海パールライン有料道路",
+      "name_en": "Saikai Pearl Line Toll Road",
+      "wikidata": "Q11629074",
+      "osm_id": 9361959
+    },
+    {
+      "ref": "203",
+      "name": "国道203号",
+      "name_en": "National Highway Route 203",
+      "wikidata": "Q6156931",
+      "osm_id": 9361958
+    },
+    {
+      "ref": "204",
+      "name": "国道204号",
+      "name_en": "National Highway Route 204",
+      "wikidata": "Q6156935",
+      "osm_id": 9364398
+    },
+    {
+      "ref": "205",
+      "name": "国道205号",
+      "name_en": "National Highway Route 205",
+      "wikidata": "Q6156937",
+      "osm_id": 9361965
+    },
+    {
+      "ref": "206",
+      "name": "国道206号",
+      "name_en": "National Highway Route 206",
+      "wikidata": "Q6156939",
+      "osm_id": 9364395
+    },
+    {
+      "ref": "207",
+      "name": "国道207号",
+      "name_en": "National Highway Route 207",
+      "wikidata": "Q11421420",
+      "osm_id": 9364399
+    },
+    {
+      "ref": "208",
+      "name": "国道208号",
+      "name_en": "National Highway Route 208",
+      "wikidata": "Q6156955",
+      "osm_id": 9361957
+    },
+    {
+      "ref": "209",
+      "name": "国道209号",
+      "name_en": "National Highway Route 209",
+      "wikidata": "Q6156947",
+      "osm_id": 9364404
+    },
+    {
+      "ref": "210",
+      "name": "久留米東バイパス",
+      "name_en": "Kurume-East Bypass",
+      "wikidata": "",
+      "osm_id": 9587541
+    },
+    {
+      "ref": "211",
+      "name": "国道211号",
+      "name_en": "National Highway Route 211",
+      "wikidata": "Q6156954",
+      "osm_id": 9578522
+    },
+    {
+      "ref": "212",
+      "name": "玉川バイパス",
+      "name_en": "Tamagawa Bypass",
+      "wikidata": "",
+      "osm_id": 9607577
+    },
+    {
+      "ref": "213",
+      "name": "国道213号",
+      "name_en": "National Highway Route 213",
+      "wikidata": "Q11421422",
+      "osm_id": 6966370
+    },
+    {
+      "ref": "217",
+      "name": "下ノ江バイパス",
+      "name_en": "Shitanoe Bypass",
+      "wikidata": "",
+      "osm_id": 9657346
+    },
+    {
+      "ref": "218",
+      "name": "高千穂バイパス",
+      "name_en": "Takachiho Bypass",
+      "wikidata": "",
+      "osm_id": 9626565
+    },
+    {
+      "ref": "219",
+      "name": "園元バイパス",
+      "name_en": "Sonomoto Bypass",
+      "wikidata": "",
+      "osm_id": 9633189
+    },
+    {
+      "ref": "220",
+      "name": "宮崎南バイパス",
+      "name_en": "Miyazaki-South Bypass",
+      "wikidata": "",
+      "osm_id": 9696274
+    },
+    {
+      "ref": "221",
+      "name": "国道221号",
+      "name_en": "National Highway Route 221",
+      "wikidata": "Q6156966",
+      "osm_id": 9651112
+    },
+    {
+      "ref": "222",
+      "name": "国道222号",
+      "name_en": "National Highway Route 222",
+      "wikidata": "Q6156968",
+      "osm_id": 9712245
+    },
+    {
+      "ref": "223",
+      "name": "国道223号",
+      "name_en": "National Highway Route 223",
+      "wikidata": "Q6156973",
+      "osm_id": 9669415
+    },
+    {
+      "ref": "224",
+      "name": "国道224号",
+      "name_en": "National Highway Route 224",
+      "wikidata": "Q11421424",
+      "osm_id": 3787044
+    },
+    {
+      "ref": "225",
+      "name": "国道225号",
+      "name_en": "National Highway Route 225",
+      "wikidata": "Q6156979",
+      "osm_id": 9680900
+    },
+    {
+      "ref": "226",
+      "name": "成川バイパス",
+      "name_en": "Narikawa Bypass",
+      "wikidata": "",
+      "osm_id": 9684091
+    },
+    {
+      "ref": "227",
+      "name": "国道227号",
+      "name_en": "National Highway Route 227",
+      "wikidata": "Q6156981",
+      "osm_id": 33010
+    },
+    {
+      "ref": "228",
+      "name": "国道228号",
+      "name_en": "National Highway Route 228",
+      "wikidata": "Q6156982",
+      "osm_id": 6585224
+    },
+    {
+      "ref": "229",
+      "name": "国道229号",
+      "name_en": "National Highway Route 229",
+      "wikidata": "Q6156986",
+      "osm_id": 6595831
+    },
+    {
+      "ref": "230",
+      "name": "国道230号",
+      "name_en": "National Highway Route 230",
+      "wikidata": "Q11421425",
+      "osm_id": 6584912
+    },
+    {
+      "ref": "231",
+      "name": "国道231号",
+      "name_en": "National Highway Route 231",
+      "wikidata": "Q6156989",
+      "osm_id": 6596139
+    },
+    {
+      "ref": "232",
+      "name": "国道232号",
+      "name_en": "National Highway Route 232",
+      "wikidata": "Q6156994",
+      "osm_id": 6612480
+    },
+    {
+      "ref": "233",
+      "name": "国道233号",
+      "name_en": "National Highway Route 233",
+      "wikidata": "Q11421426",
+      "osm_id": 6596367
+    },
+    {
+      "ref": "234",
+      "name": "国道234号",
+      "name_en": "National Highway Route 234",
+      "wikidata": "Q6156997",
+      "osm_id": 6601904
+    },
+    {
+      "ref": "235",
+      "name": "国道235号",
+      "name_en": "National Highway Route 235",
+      "wikidata": "Q6157002",
+      "osm_id": 6624769
+    },
+    {
+      "ref": "236",
+      "name": "国道236号",
+      "name_en": "National Highway Route 236",
+      "wikidata": "Q11421427",
+      "osm_id": 6626645
+    },
+    {
+      "ref": "237",
+      "name": "国道237号",
+      "name_en": "National Highway Route 237",
+      "wikidata": "Q6157006",
+      "osm_id": 2883869
+    },
+    {
+      "ref": "238",
+      "name": "国道238号",
+      "name_en": "National Highway Route 238",
+      "wikidata": "Q6157008",
+      "osm_id": 6621211
+    },
+    {
+      "ref": "239",
+      "name": "国道239号",
+      "name_en": "National Highway Route 239",
+      "wikidata": "Q6157010",
+      "osm_id": 6612481
+    },
+    {
+      "ref": "240",
+      "name": "国道240号",
+      "name_en": "National Highway Route 240",
+      "wikidata": "Q6157012",
+      "osm_id": 6641475
+    },
+    {
+      "ref": "241",
+      "name": "国道241号",
+      "name_en": "National Highway Route 241",
+      "wikidata": "Q6157013",
+      "osm_id": 6632428
+    },
+    {
+      "ref": "242",
+      "name": "国道242号",
+      "name_en": "National Highway Route 242",
+      "wikidata": "Q6157019",
+      "osm_id": 6639503
+    },
+    {
+      "ref": "243",
+      "name": "国道243号",
+      "name_en": "National Highway Route 243",
+      "wikidata": "Q6157021",
+      "osm_id": 6641549
+    },
+    {
+      "ref": "244",
+      "name": "国道244号",
+      "name_en": "National Highway Route 244",
+      "wikidata": "Q6157023",
+      "osm_id": 6645422
+    },
+    {
+      "ref": "245",
+      "name": "国道245号",
+      "name_en": "National Highway Route 245",
+      "wikidata": "Q11421428",
+      "osm_id": 5431055
+    },
+    {
+      "ref": "246",
+      "name": "国道246号",
+      "name_en": "National Highway Route 246",
+      "wikidata": "Q8193025",
+      "osm_id": 30840
+    },
+    {
+      "ref": "247",
+      "name": "国道247号",
+      "name_en": "National Highway Route 247",
+      "wikidata": "Q6157029",
+      "osm_id": 8466396
+    },
+    {
+      "ref": "248",
+      "name": "国道248号",
+      "name_en": "National Highway Route 248",
+      "wikidata": "Q6157033",
+      "osm_id": 8472959
+    },
+    {
+      "ref": "249",
+      "name": "国道249号",
+      "name_en": "National Highway Route 249",
+      "wikidata": "Q11421429",
+      "osm_id": 8903572
+    },
+    {
+      "ref": "250",
+      "name": "国道250号",
+      "name_en": "National Highway Route 250",
+      "wikidata": "Q6157044",
+      "osm_id": 9864624
+    },
+    {
+      "ref": "251",
+      "name": "島原深江道路",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 8043956
+    },
+    {
+      "ref": "252",
+      "name": "国道252号",
+      "name_en": "National Highway Route 252",
+      "wikidata": "Q6157042",
+      "osm_id": 6647077
+    },
+    {
+      "ref": "253",
+      "name": "三和安塚道路",
+      "name_en": "",
+      "wikidata": "Q11354643",
+      "osm_id": 7451451
+    },
+    {
+      "ref": "254",
+      "name": "国道254号",
+      "name_en": "National Highway Route 254",
+      "wikidata": "Q6157049",
+      "osm_id": 1020657
+    },
+    {
+      "ref": "255",
+      "name": "国道255号",
+      "name_en": "National Highway Route 255",
+      "wikidata": "Q6157052",
+      "osm_id": 3639021
+    },
+    {
+      "ref": "256",
+      "name": "国道256号",
+      "name_en": "National Highway Route 256",
+      "wikidata": "Q6157056",
+      "osm_id": 1192346
+    },
+    {
+      "ref": "257",
+      "name": "国道257号",
+      "name_en": "National Highway Route 257",
+      "wikidata": "Q6157057",
+      "osm_id": 3521034
+    },
+    {
+      "ref": "259",
+      "name": "国道259号",
+      "name_en": "National Highway Route 259",
+      "wikidata": "Q11421431",
+      "osm_id": 8421608
+    },
+    {
+      "ref": "260",
+      "name": "志摩バイパス",
+      "name_en": "Shima Bypass",
+      "wikidata": "",
+      "osm_id": 8253539
+    },
+    {
+      "ref": "261",
+      "name": "国道261号",
+      "name_en": "National Highway Route 261",
+      "wikidata": "Q6157062",
+      "osm_id": 8171702
+    },
+    {
+      "ref": "262",
+      "name": "明木バイパス",
+      "name_en": "Akiragi Bypass",
+      "wikidata": "",
+      "osm_id": 9880092
+    },
+    {
+      "ref": "263",
+      "name": "三瀬トンネル有料道路",
+      "name_en": "Mitsuse Tunnel Toll Road",
+      "wikidata": "Q11356636",
+      "osm_id": 9361996
+    },
+    {
+      "ref": "264",
+      "name": "国道264号",
+      "name_en": "National Highway Route 264",
+      "wikidata": "Q6157073",
+      "osm_id": 9361995
+    },
+    {
+      "ref": "265",
+      "name": "国道265号",
+      "name_en": "National Highway Route 265",
+      "wikidata": "Q6157077",
+      "osm_id": 9621534
+    },
+    {
+      "ref": "266",
+      "name": "高戸バイパス",
+      "name_en": "Takado Bypass",
+      "wikidata": "",
+      "osm_id": 9576053
+    },
+    {
+      "ref": "267",
+      "name": "東郷バイパス",
+      "name_en": "Tougou Bypass",
+      "wikidata": "",
+      "osm_id": 9662104
+    },
+    {
+      "ref": "268",
+      "name": "国道268号",
+      "name_en": "National Highway Route 268",
+      "wikidata": "Q6157082",
+      "osm_id": 9637071
+    },
+    {
+      "ref": "269",
+      "name": "天満バイパス",
+      "name_en": "Tenman Bypass",
+      "wikidata": "",
+      "osm_id": 9702417
+    },
+    {
+      "ref": "270",
+      "name": "国道270号",
+      "name_en": "National Highway Route 270",
+      "wikidata": "Q6157087",
+      "osm_id": 9678094
+    },
+    {
+      "ref": "271",
+      "name": "国道271号",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 12079856
+    },
+    {
+      "ref": "272",
+      "name": "国道272号",
+      "name_en": "National Highway Route 272",
+      "wikidata": "Q6157088",
+      "osm_id": 6651341
+    },
+    {
+      "ref": "273",
+      "name": "国道273号",
+      "name_en": "National Highway Route 273",
+      "wikidata": "Q6157106",
+      "osm_id": 6632429
+    },
+    {
+      "ref": "274",
+      "name": "国道274号",
+      "name_en": "National Highway Route 274",
+      "wikidata": "Q6157092",
+      "osm_id": 6651380
+    },
+    {
+      "ref": "275",
+      "name": "国道275号",
+      "name_en": "National Highway Route 275",
+      "wikidata": "Q6157094",
+      "osm_id": 6607033
+    },
+    {
+      "ref": "276",
+      "name": "岩内共和道路",
+      "name_en": "Iwauchi-Kyouwa Highway",
+      "wikidata": "",
+      "osm_id": 9427007
+    },
+    {
+      "ref": "277",
+      "name": "国道277号",
+      "name_en": "National Highway Route 277",
+      "wikidata": "Q6157101",
+      "osm_id": 6594495
+    },
+    {
+      "ref": "278",
+      "name": "国道278号",
+      "name_en": "National Highway Route 278",
+      "wikidata": "Q8191150",
+      "osm_id": 3842394
+    },
+    {
+      "ref": "279",
+      "name": "国道279号",
+      "name_en": "National Highway Route 279",
+      "wikidata": "Q6157108",
+      "osm_id": 7346573
+    },
+    {
+      "ref": "280",
+      "name": "野田バイパス",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 6585311
+    },
+    {
+      "ref": "281",
+      "name": "国道281号",
+      "name_en": "National Highway Route 281",
+      "wikidata": "Q6157118",
+      "osm_id": 9230437
+    },
+    {
+      "ref": "282",
+      "name": "国道282号",
+      "name_en": "National Highway Route 282",
+      "wikidata": "Q6157124",
+      "osm_id": 6583464
+    },
+    {
+      "ref": "283",
+      "name": "土沢バイパス",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 10422983
+    },
+    {
+      "ref": "284",
+      "name": "真滝バイパス",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 10427575
+    },
+    {
+      "ref": "285",
+      "name": "国道285号",
+      "name_en": "National Highway Route 285",
+      "wikidata": "Q11421434",
+      "osm_id": 6743360
+    },
+    {
+      "ref": "286",
+      "name": "川崎バイパス",
+      "name_en": "Kawasaki Bypass",
+      "wikidata": "",
+      "osm_id": 9388098
+    },
+    {
+      "ref": "287",
+      "name": "左沢バイパス",
+      "name_en": "Aterazawa Bypass",
+      "wikidata": "",
+      "osm_id": 9385020
+    },
+    {
+      "ref": "288",
+      "name": "玉ノ湯バイパス",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 10452464
+    },
+    {
+      "ref": "289",
+      "name": "荷路夫バイパス",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 10459233
+    },
+    {
+      "ref": "290",
+      "name": "栃尾東バイパス",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 10459381
+    },
+    {
+      "ref": "291",
+      "name": "湯谷越バイパス",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 10459614
+    },
+    {
+      "ref": "292",
+      "name": "国道292号",
+      "name_en": "National Highway Route 292",
+      "wikidata": "Q11421437",
+      "osm_id": 7920696
+    },
+    {
+      "ref": "293",
+      "name": "国道293号",
+      "name_en": "National Highway Route 293",
+      "wikidata": "Q6157155",
+      "osm_id": 6646894
+    },
+    {
+      "ref": "294",
+      "name": "国道294号",
+      "name_en": "National Highway Route 294",
+      "wikidata": "Q6157157",
+      "osm_id": 49515
+    },
+    {
+      "ref": "295",
+      "name": "国道295号",
+      "name_en": "National Highway Route 295",
+      "wikidata": "Q5367587",
+      "osm_id": 9842733
+    },
+    {
+      "ref": "296",
+      "name": "国道296号",
+      "name_en": "National Highway Route 296",
+      "wikidata": "Q11421439",
+      "osm_id": 9885666
+    },
+    {
+      "ref": "297",
+      "name": "国道297号",
+      "name_en": "National Highway Route 297",
+      "wikidata": "Q6157171",
+      "osm_id": 10259311
+    },
+    {
+      "ref": "298",
+      "name": "国道298号",
+      "name_en": "National Highway Route 298",
+      "wikidata": "Q6157161",
+      "osm_id": 10481824
+    },
+    {
+      "ref": "299",
+      "name": "国道299号",
+      "name_en": "National Highway Route 299",
+      "wikidata": "Q6157165",
+      "osm_id": 53796
+    },
+    {
+      "ref": "300",
+      "name": "古関バイパス",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 10601140
+    },
+    {
+      "ref": "301",
+      "name": "国道301号",
+      "name_en": "National Highway Route 301",
+      "wikidata": "Q6157176",
+      "osm_id": 3518585
+    },
+    {
+      "ref": "302",
+      "name": "国道302号",
+      "name_en": "National Highway Route 302",
+      "wikidata": "Q11421440",
+      "osm_id": 8512559
+    },
+    {
+      "ref": "303",
+      "name": "国道303号",
+      "name_en": "National Highway Route 303",
+      "wikidata": "Q6157181",
+      "osm_id": 8547309
+    },
+    {
+      "ref": "305",
+      "name": "国道305号",
+      "name_en": "National Highway Route 305",
+      "wikidata": "Q6157185",
+      "osm_id": 8606655
+    },
+    {
+      "ref": "306",
+      "name": "国道306号",
+      "name_en": "National Highway Route 306",
+      "wikidata": "Q3738011",
+      "osm_id": 8330838
+    },
+    {
+      "ref": "307",
+      "name": "国道307号",
+      "name_en": "National Highway Route 307",
+      "wikidata": "Q6157190",
+      "osm_id": 6097291
+    },
+    {
+      "ref": "308",
+      "name": "国道308号",
+      "name_en": "National Highway Route 308",
+      "wikidata": "Q6157191",
+      "osm_id": 3947962
+    },
+    {
+      "ref": "309",
+      "name": "国道309号",
+      "name_en": "National Highway Route 309",
+      "wikidata": "Q11421441",
+      "osm_id": 6114814
+    },
+    {
+      "ref": "310",
+      "name": "国道310号",
+      "name_en": "National Highway Route 310",
+      "wikidata": "Q6157203",
+      "osm_id": 8770279
+    },
+    {
+      "ref": "311",
+      "name": "国道311号",
+      "name_en": "National Highway Route 311",
+      "wikidata": "Q745071",
+      "osm_id": 7803946
+    },
+    {
+      "ref": "312",
+      "name": "比治山バイパス",
+      "name_en": "Hijiyama Bypass",
+      "wikidata": "",
+      "osm_id": 10013100
+    },
+    {
+      "ref": "313",
+      "name": "北条湯原道路",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 7441843
+    },
+    {
+      "ref": "314",
+      "name": "国道314号",
+      "name_en": "National Highway Route 314",
+      "wikidata": "Q6157208",
+      "osm_id": 9226628
+    },
+    {
+      "ref": "315",
+      "name": "国道315号",
+      "name_en": "National Highway Route 315",
+      "wikidata": "Q6157213",
+      "osm_id": 1113900
+    },
+    {
+      "ref": "316",
+      "name": "国道316号",
+      "name_en": "National Highway Route 316",
+      "wikidata": "Q6157215",
+      "osm_id": 9878286
+    },
+    {
+      "ref": "317",
+      "name": "今治玉川バイパス",
+      "name_en": "Imabari-Tamagawa Bypass",
+      "wikidata": "",
+      "osm_id": 9841706
+    },
+    {
+      "ref": "318",
+      "name": "国道318号",
+      "name_en": "National Highway Route 318",
+      "wikidata": "Q6157220",
+      "osm_id": 12886
+    },
+    {
+      "ref": "319",
+      "name": "国道319号",
+      "name_en": "National Highway Route 319",
+      "wikidata": "Q8190527",
+      "osm_id": 31661
+    },
+    {
+      "ref": "320",
+      "name": "国道320号",
+      "name_en": "National Highway Route 320",
+      "wikidata": "Q6157230",
+      "osm_id": 1061405
+    },
+    {
+      "ref": "321",
+      "name": "以布利バイパス",
+      "name_en": "Iburi Bypass",
+      "wikidata": "",
+      "osm_id": 9730724
+    },
+    {
+      "ref": "322",
+      "name": "北方バイパス",
+      "name_en": "Kitagata Bypass",
+      "wikidata": "",
+      "osm_id": 9564858
+    },
+    {
+      "ref": "323",
+      "name": "国道323号",
+      "name_en": "National Highway Route 323",
+      "wikidata": "Q6157237",
+      "osm_id": 9364401
+    },
+    {
+      "ref": "324",
+      "name": "国道324号",
+      "name_en": "National Highway Route 324",
+      "wikidata": "Q6157238",
+      "osm_id": 2360722
+    },
+    {
+      "ref": "325",
+      "name": "田原バイパス",
+      "name_en": "Tabaru Bypass",
+      "wikidata": "",
+      "osm_id": 9599962
+    },
+    {
+      "ref": "326",
+      "name": "国道326号",
+      "name_en": "National Highway Route 326",
+      "wikidata": "Q6157242",
+      "osm_id": 9655888
+    },
+    {
+      "ref": "327",
+      "name": "国道327号",
+      "name_en": "National Highway Route 327",
+      "wikidata": "Q6157244",
+      "osm_id": 9644147
+    },
+    {
+      "ref": "328",
+      "name": "国道328号",
+      "name_en": "National Highway Route 328",
+      "wikidata": "Q6157248",
+      "osm_id": 9674712
+    },
+    {
+      "ref": "333",
+      "name": "遠軽北見道路",
+      "name_en": "Engaru-Kitami Road",
+      "wikidata": "Q11642395",
+      "osm_id": 6639468
+    },
+    {
+      "ref": "334",
+      "name": "国道334号",
+      "name_en": "National Highway Route 334",
+      "wikidata": "Q6157274",
+      "osm_id": 6649220
+    },
+    {
+      "ref": "335",
+      "name": "国道335号",
+      "name_en": "National Highway Route 335",
+      "wikidata": "Q11421444",
+      "osm_id": 6651324
+    },
+    {
+      "ref": "336",
+      "name": "国道336号",
+      "name_en": "National Highway Route 336",
+      "wikidata": "Q6157276",
+      "osm_id": 6626646
+    },
+    {
+      "ref": "337",
+      "name": "道央圏連絡道路",
+      "name_en": "Central Hokkaido Connection Road",
+      "wikidata": "Q11641672",
+      "osm_id": 6604292
+    },
+    {
+      "ref": "338",
+      "name": "国道338号",
+      "name_en": "National Highway Route 338",
+      "wikidata": "Q6157277",
+      "osm_id": 33014
+    },
+    {
+      "ref": "339",
+      "name": "国道339号",
+      "name_en": "National Highway Route 339",
+      "wikidata": "Q6157281",
+      "osm_id": 195249
+    },
+    {
+      "ref": "340",
+      "name": "国道340号",
+      "name_en": "National Highway Route 340",
+      "wikidata": "Q6157288",
+      "osm_id": 7259555
+    },
+    {
+      "ref": "342",
+      "name": "国道342号",
+      "name_en": "National Highway Route 342",
+      "wikidata": "Q421126",
+      "osm_id": 7462562
+    },
+    {
+      "ref": "343",
+      "name": "国道343号",
+      "name_en": "National Highway Route 343",
+      "wikidata": "Q6157299",
+      "osm_id": 572350
+    },
+    {
+      "ref": "344",
+      "name": "国道344号",
+      "name_en": "National Highway Route 344",
+      "wikidata": "Q6157293",
+      "osm_id": 6649827
+    },
+    {
+      "ref": "345",
+      "name": "国道345号",
+      "name_en": "National Highway Route 345",
+      "wikidata": "Q6157295",
+      "osm_id": 9145802
+    },
+    {
+      "ref": "346",
+      "name": "国道346号",
+      "name_en": "National Highway Route 346",
+      "wikidata": "Q11421445",
+      "osm_id": 9167558
+    },
+    {
+      "ref": "347",
+      "name": "尾花沢バイパス",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 11201507
+    },
+    {
+      "ref": "349",
+      "name": "国道349号",
+      "name_en": "National Highway Route 349",
+      "wikidata": "Q6157304",
+      "osm_id": 6603804
+    },
+    {
+      "ref": "350",
+      "name": "国道350号",
+      "name_en": "National Highway Route 350",
+      "wikidata": "Q6157308",
+      "osm_id": 8660479
+    },
+    {
+      "ref": "351",
+      "name": "旭町バイパス",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 11587543
+    },
+    {
+      "ref": "352",
+      "name": "国道352号",
+      "name_en": "National Highway Route 352",
+      "wikidata": "Q8190181",
+      "osm_id": 6357795
+    },
+    {
+      "ref": "353",
+      "name": "国道353号",
+      "name_en": "National Highway Route 353",
+      "wikidata": "Q6157317",
+      "osm_id": 2888579
+    },
+    {
+      "ref": "354",
+      "name": "国道354号",
+      "name_en": "National Highway Route 354",
+      "wikidata": "Q6157321",
+      "osm_id": 3644591
+    },
+    {
+      "ref": "355",
+      "name": "国道355号",
+      "name_en": "National Highway Route 355",
+      "wikidata": "Q11421446",
+      "osm_id": 13970524
+    },
+    {
+      "ref": "356",
+      "name": "我孫子バイパス",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 15461274
+    },
+    {
+      "ref": "357",
+      "name": "国道357号",
+      "name_en": "National Highway Route 357",
+      "wikidata": "Q6157329",
+      "osm_id": 5347303
+    },
+    {
+      "ref": "358",
+      "name": "国道358号",
+      "name_en": "National Highway Route 358",
+      "wikidata": "Q6157331",
+      "osm_id": 3836968
+    },
+    {
+      "ref": "359",
+      "name": "津沢バイパス",
+      "name_en": "",
+      "wikidata": "Q116763821",
+      "osm_id": 15466321
+    },
+    {
+      "ref": "360",
+      "name": "種蔵・打保バイパス",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 14415895
+    },
+    {
+      "ref": "361",
+      "name": "国道361号",
+      "name_en": "National Highway Route 361",
+      "wikidata": "Q6157341",
+      "osm_id": 6518158
+    },
+    {
+      "ref": "362",
+      "name": "国道362号",
+      "name_en": "National Highway Route 362",
+      "wikidata": "Q6157344",
+      "osm_id": 3518586
+    },
+    {
+      "ref": "363",
+      "name": "国道363号",
+      "name_en": "National Highway Route 363",
+      "wikidata": "Q6157348",
+      "osm_id": 8507094
+    },
+    {
+      "ref": "364",
+      "name": "大内道路",
+      "name_en": "Ouchi Highway",
+      "wikidata": "",
+      "osm_id": 10143464
+    },
+    {
+      "ref": "365",
+      "name": "員弁バイパス",
+      "name_en": "Inabe Bypass",
+      "wikidata": "",
+      "osm_id": 10116125
+    },
+    {
+      "ref": "366",
+      "name": "国道366号",
+      "name_en": "National Highway Route 366",
+      "wikidata": "Q11421448",
+      "osm_id": 8468445
+    },
+    {
+      "ref": "368",
+      "name": "小屋道路",
+      "name_en": "Koya Highway",
+      "wikidata": "",
+      "osm_id": 10108458
+    },
+    {
+      "ref": "369",
+      "name": "国道369号",
+      "name_en": "National Highway Route 369",
+      "wikidata": "Q11421449",
+      "osm_id": 8346167
+    },
+    {
+      "ref": "370",
+      "name": "国道370号",
+      "name_en": "National Highway Route 370",
+      "wikidata": "Q2041916",
+      "osm_id": 8547781
+    },
+    {
+      "ref": "371",
+      "name": "国道371号",
+      "name_en": "National Highway Route 371",
+      "wikidata": "Q2231949",
+      "osm_id": 8778351
+    },
+    {
+      "ref": "372",
+      "name": "亀岡園部バイパス",
+      "name_en": "Kameoka-Sonobe Bypass",
+      "wikidata": "",
+      "osm_id": 10030008
+    },
+    {
+      "ref": "373",
+      "name": "国道373号",
+      "name_en": "National Highway Route 373",
+      "wikidata": "Q6157368",
+      "osm_id": 8428316
+    },
+    {
+      "ref": "374",
+      "name": "国道374号",
+      "name_en": "National Highway Route 374",
+      "wikidata": "Q6157375",
+      "osm_id": 10036652
+    },
+    {
+      "ref": "375",
+      "name": "国道375号",
+      "name_en": "National Highway Route 375",
+      "wikidata": "Q6157379",
+      "osm_id": 7521547
+    },
+    {
+      "ref": "376",
+      "name": "須々万バイパス",
+      "name_en": "Susuma Bypass",
+      "wikidata": "",
+      "osm_id": 9887931
+    },
+    {
+      "ref": "377",
+      "name": "国道377号",
+      "name_en": "National Highway Route 377",
+      "wikidata": "Q6157382",
+      "osm_id": 36203
+    },
+    {
+      "ref": "378",
+      "name": "俵津バイパス",
+      "name_en": "Tawarazu Bypass",
+      "wikidata": "",
+      "osm_id": 9724892
+    },
+    {
+      "ref": "379",
+      "name": "岩谷バイパス",
+      "name_en": "Iwaya Bypass",
+      "wikidata": "",
+      "osm_id": 9760265
+    },
+    {
+      "ref": "380",
+      "name": "国道380号",
+      "name_en": "National Highway Route 380",
+      "wikidata": "Q6157396",
+      "osm_id": 1061406
+    },
+    {
+      "ref": "381",
+      "name": "松野東バイパス",
+      "name_en": "Matsuno-East Bypass",
+      "wikidata": "",
+      "osm_id": 9732772
+    },
+    {
+      "ref": "382",
+      "name": "国道382号",
+      "name_en": "National Highway Route 382",
+      "wikidata": "Q333414",
+      "osm_id": 9364397
+    },
+    {
+      "ref": "383",
+      "name": "国道383号",
+      "name_en": "National Highway Route 383",
+      "wikidata": "Q6157398",
+      "osm_id": 9525476
+    },
+    {
+      "ref": "384",
+      "name": "国道384号",
+      "name_en": "National Highway Route 384",
+      "wikidata": "Q11421452",
+      "osm_id": 9365392
+    },
+    {
+      "ref": "385",
+      "name": "東脊振トンネル有料道路",
+      "name_en": "Higashisefuri Tunnel Toll Road",
+      "wikidata": "Q11528202",
+      "osm_id": 9364402
+    },
+    {
+      "ref": "386",
+      "name": "国道386号",
+      "name_en": "National Highway Route 386",
+      "wikidata": "Q6157405",
+      "osm_id": 9581384
+    },
+    {
+      "ref": "387",
+      "name": "飛田バイパス",
+      "name_en": "Hida Bypass",
+      "wikidata": "",
+      "osm_id": 9609322
+    },
+    {
+      "ref": "388",
+      "name": "和田越バイパス",
+      "name_en": "Wadagoe Bypass",
+      "wikidata": "",
+      "osm_id": 9646056
+    },
+    {
+      "ref": "389",
+      "name": "国道389号",
+      "name_en": "National Highway Route 389",
+      "wikidata": "Q11421454",
+      "osm_id": 9365391
+    },
+    {
+      "ref": "391",
+      "name": "国道391号",
+      "name_en": "National Highway Route 391",
+      "wikidata": "Q6157421",
+      "osm_id": 6645423
+    },
+    {
+      "ref": "392",
+      "name": "国道392号",
+      "name_en": "National Highway Route 392",
+      "wikidata": "Q6157424",
+      "osm_id": 6653406
+    },
+    {
+      "ref": "393",
+      "name": "国道393号",
+      "name_en": "National Highway Route 393",
+      "wikidata": "Q6157427",
+      "osm_id": 6596106
+    },
+    {
+      "ref": "396",
+      "name": "国道396号",
+      "name_en": "National Highway Route 396",
+      "wikidata": "Q6157436",
+      "osm_id": 446121
+    },
+    {
+      "ref": "397",
+      "name": "国道397号",
+      "name_en": "National Highway Route 397",
+      "wikidata": "Q6157438",
+      "osm_id": 7901019
+    },
+    {
+      "ref": "398",
+      "name": "国道398号",
+      "name_en": "National Highway Route 398",
+      "wikidata": "Q6157441",
+      "osm_id": 6012803
+    },
+    {
+      "ref": "400",
+      "name": "国道400号",
+      "name_en": "National Highway Route 400",
+      "wikidata": "Q11421457",
+      "osm_id": 5425459
+    },
+    {
+      "ref": "401",
+      "name": "国道401号",
+      "name_en": "National Highway Route 401",
+      "wikidata": "Q6157452",
+      "osm_id": 6491957
+    },
+    {
+      "ref": "405",
+      "name": "国道405号",
+      "name_en": "National Highway Route 405",
+      "wikidata": "Q6157460",
+      "osm_id": 6518913
+    },
+    {
+      "ref": "406",
+      "name": "国道406号",
+      "name_en": "National Highway Route 406",
+      "wikidata": "Q6157463",
+      "osm_id": 4085924
+    },
+    {
+      "ref": "408",
+      "name": "国道408号",
+      "name_en": "National Highway Route 408",
+      "wikidata": "Q11421459",
+      "osm_id": 7418329
+    },
+    {
+      "ref": "409",
+      "name": "国道409号",
+      "name_en": "National Highway Route 409",
+      "wikidata": "Q6157471",
+      "osm_id": 33003
+    },
+    {
+      "ref": "410",
+      "name": "久留里馬来田バイパス",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 9889614
+    },
+    {
+      "ref": "411",
+      "name": "国道411号",
+      "name_en": "National Highway Route 411",
+      "wikidata": "Q6157481",
+      "osm_id": 8855535
+    },
+    {
+      "ref": "412",
+      "name": "国道412号",
+      "name_en": "National Highway Route 412",
+      "wikidata": "Q11421460",
+      "osm_id": 2162634
+    },
+    {
+      "ref": "413",
+      "name": "国道413号",
+      "name_en": "National Highway Route 413",
+      "wikidata": "Q6157485",
+      "osm_id": 3908697
+    },
+    {
+      "ref": "417",
+      "name": "徳山バイパス",
+      "name_en": "Tokuyama Bypass",
+      "wikidata": "",
+      "osm_id": 8292976
+    },
+    {
+      "ref": "418",
+      "name": "国道418号",
+      "name_en": "National Highway Route 418",
+      "wikidata": "Q6157496",
+      "osm_id": 3524706
+    },
+    {
+      "ref": "419",
+      "name": "国道419号",
+      "name_en": "National Highway Route 419",
+      "wikidata": "Q11421461",
+      "osm_id": 8456817
+    },
+    {
+      "ref": "420",
+      "name": "国道420号",
+      "name_en": "National Highway Route 420",
+      "wikidata": "Q6157499",
+      "osm_id": 3527404
+    },
+    {
+      "ref": "421",
+      "name": "国道421号",
+      "name_en": "National Highway Route 421",
+      "wikidata": "Q6157502",
+      "osm_id": 8319621
+    },
+    {
+      "ref": "422",
+      "name": "三田坂バイパス",
+      "name_en": "Mitasaka Bypass",
+      "wikidata": "",
+      "osm_id": 10109720
+    },
+    {
+      "ref": "423",
+      "name": "箕面有料道路",
+      "name_en": "",
+      "wikidata": "Q11603208",
+      "osm_id": 8028283
+    },
+    {
+      "ref": "424",
+      "name": "打田桃山バイパス",
+      "name_en": "Uchida-Momoyama Bypass",
+      "wikidata": "",
+      "osm_id": 10068581
+    },
+    {
+      "ref": "425",
+      "name": "国道425号",
+      "name_en": "National Highway Route 425",
+      "wikidata": "Q4506774",
+      "osm_id": 3791425
+    },
+    {
+      "ref": "426",
+      "name": "国道426号",
+      "name_en": "National Route 426",
+      "wikidata": "Q11421462",
+      "osm_id": 10018733
+    },
+    {
+      "ref": "427",
+      "name": "曽我井バイパス",
+      "name_en": "Sogai Bypass",
+      "wikidata": "",
+      "osm_id": 10017332
+    },
+    {
+      "ref": "428",
+      "name": "国道428号",
+      "name_en": "National Route 428",
+      "wikidata": "Q6157514",
+      "osm_id": 10012952
+    },
+    {
+      "ref": "429",
+      "name": "倉敷総社バイパス",
+      "name_en": "Kurashiki-Souja Bypass",
+      "wikidata": "",
+      "osm_id": 9995637
+    },
+    {
+      "ref": "430",
+      "name": "国道430号",
+      "name_en": "National Highway Route 430",
+      "wikidata": "Q6157522",
+      "osm_id": 9977958
+    },
+    {
+      "ref": "431",
+      "name": "東林木バイパス",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 8821723
+    },
+    {
+      "ref": "432",
+      "name": "国道432号",
+      "name_en": "National Highway Route 432",
+      "wikidata": "Q6157529",
+      "osm_id": 9225568
+    },
+    {
+      "ref": "433",
+      "name": "国道433号",
+      "name_en": "National Highway Route 433",
+      "wikidata": "",
+      "osm_id": 2789281
+    },
+    {
+      "ref": "434",
+      "name": "国道434号",
+      "name_en": "National Highway Route 434",
+      "wikidata": "",
+      "osm_id": 1181630
+    },
+    {
+      "ref": "435",
+      "name": "滝部バイパス",
+      "name_en": "Takibe Bypass",
+      "wikidata": "",
+      "osm_id": 9865109
+    },
+    {
+      "ref": "436",
+      "name": "国道436号",
+      "name_en": "National Highway Route 436",
+      "wikidata": "Q6157539",
+      "osm_id": 572119
+    },
+    {
+      "ref": "437",
+      "name": "国道437号",
+      "name_en": "National Highway Route 437",
+      "wikidata": "Q5482618",
+      "osm_id": 9846585
+    },
+    {
+      "ref": "438",
+      "name": "国道438号",
+      "name_en": "National Highway Route 438",
+      "wikidata": "Q6157543",
+      "osm_id": 12873
+    },
+    {
+      "ref": "439",
+      "name": "国道439号",
+      "name_en": "National Route 439",
+      "wikidata": "Q6157545",
+      "osm_id": 12591
+    },
+    {
+      "ref": "440",
+      "name": "地芳道路",
+      "name_en": "Jioshi Highway",
+      "wikidata": "",
+      "osm_id": 9741201
+    },
+    {
+      "ref": "441",
+      "name": "網代バイパス",
+      "name_en": "Ajiro Bypass",
+      "wikidata": "",
+      "osm_id": 9736754
+    },
+    {
+      "ref": "442",
+      "name": "大木大川バイパス",
+      "name_en": "Okio-Okawa Bypass",
+      "wikidata": "",
+      "osm_id": 9581589
+    },
+    {
+      "ref": "443",
+      "name": "三橋瀬高バイパス",
+      "name_en": "Mitsuhasi-Setaka Bypass",
+      "wikidata": "Q11356023",
+      "osm_id": 9570220
+    },
+    {
+      "ref": "444",
+      "name": "国道444号",
+      "name_en": "National Route 444",
+      "wikidata": "Q6157564",
+      "osm_id": 9364400
+    },
+    {
+      "ref": "445",
+      "name": "御船バイパス",
+      "name_en": "Mifune Bypass",
+      "wikidata": "",
+      "osm_id": 9604034
+    },
+    {
+      "ref": "446",
+      "name": "国道446号",
+      "name_en": "National Highway Route 446",
+      "wikidata": "Q6157566",
+      "osm_id": 9668498
+    },
+    {
+      "ref": "447",
+      "name": "国道447号",
+      "name_en": "National Highway Route 447",
+      "wikidata": "Q6157569",
+      "osm_id": 9663861
+    },
+    {
+      "ref": "448",
+      "name": "小崎バイパス",
+      "name_en": "Kozaki Bypass",
+      "wikidata": "",
+      "osm_id": 9714377
+    },
+    {
+      "ref": "450",
+      "name": "国道450号",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 12079873
+    },
+    {
+      "ref": "451",
+      "name": "国道451号",
+      "name_en": "National Highway Route 451",
+      "wikidata": "Q11421466",
+      "osm_id": 6601928
+    },
+    {
+      "ref": "452",
+      "name": "国道452号",
+      "name_en": "National Highway Route 452",
+      "wikidata": "Q6157586",
+      "osm_id": 6605962
+    },
+    {
+      "ref": "453",
+      "name": "国道453号",
+      "name_en": "National Highway Route 453",
+      "wikidata": "Q6157589",
+      "osm_id": 6601896
+    },
+    {
+      "ref": "454",
+      "name": "国道454号",
+      "name_en": "National Highway Route 454",
+      "wikidata": "Q6157592",
+      "osm_id": 3317036
+    },
+    {
+      "ref": "455",
+      "name": "国道455号",
+      "name_en": "National Highway Route 455",
+      "wikidata": "",
+      "osm_id": 416686
+    },
+    {
+      "ref": "456",
+      "name": "国道456号",
+      "name_en": "National Highway Route 456",
+      "wikidata": "Q6157603",
+      "osm_id": 446122
+    },
+    {
+      "ref": "458",
+      "name": "国道458号",
+      "name_en": "National Highway Route 458",
+      "wikidata": "Q6157605",
+      "osm_id": 9383269
+    },
+    {
+      "ref": "459",
+      "name": "国道459号",
+      "name_en": "National Highway Route 459",
+      "wikidata": "Q6157609",
+      "osm_id": 7240653
+    },
+    {
+      "ref": "461",
+      "name": "国道461号",
+      "name_en": "National route 461",
+      "wikidata": "Q6157615",
+      "osm_id": 6682046
+    },
+    {
+      "ref": "462",
+      "name": "国道462号",
+      "name_en": "National Highway Route 462",
+      "wikidata": "Q11421468",
+      "osm_id": 5450521
+    },
+    {
+      "ref": "464",
+      "name": "国道464号",
+      "name_en": "National Highway Route 464",
+      "wikidata": "Q5367835",
+      "osm_id": 11621854
+    },
+    {
+      "ref": "466",
+      "name": "国道466号",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 13030567
+    },
+    {
+      "ref": "467",
+      "name": "国道467号",
+      "name_en": "National Highway Route 467",
+      "wikidata": "Q6157627",
+      "osm_id": 2695918
+    },
+    {
+      "ref": "468",
+      "name": "国道468号",
+      "name_en": "National Highway Route 468",
+      "wikidata": "Q5957728",
+      "osm_id": 12086616
+    },
+    {
+      "ref": "470",
+      "name": "国道470号",
+      "name_en": "National Highway Route 470",
+      "wikidata": "",
+      "osm_id": 12079774
+    },
+    {
+      "ref": "471",
+      "name": "栃折バイパス",
+      "name_en": "Tochiori Bypass",
+      "wikidata": "",
+      "osm_id": 10166469
+    },
+    {
+      "ref": "472",
+      "name": "国道472号",
+      "name_en": "National Highway Route 472",
+      "wikidata": "Q6157641",
+      "osm_id": 3796341
+    },
+    {
+      "ref": "473",
+      "name": "国道473号",
+      "name_en": "National Highway Route 473",
+      "wikidata": "Q6157643",
+      "osm_id": 3519913
+    },
+    {
+      "ref": "474",
+      "name": "国道474号",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 12288548
+    },
+    {
+      "ref": "475",
+      "name": "国道475号",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 10901520
+    },
+    {
+      "ref": "477",
+      "name": "国道477号",
+      "name_en": "National Highway Route 477",
+      "wikidata": "Q6157651",
+      "osm_id": 7417266
+    },
+    {
+      "ref": "479",
+      "name": "国道479号",
+      "name_en": "National Highway Route 479",
+      "wikidata": "Q6157657",
+      "osm_id": 10040102
+    },
+    {
+      "ref": "480",
+      "name": "国道480号",
+      "name_en": "National Highway Route 480",
+      "wikidata": "Q2195659",
+      "osm_id": 8784852
+    },
+    {
+      "ref": "481",
+      "name": "国道481号",
+      "name_en": "National Highway Route 481",
+      "wikidata": "Q6157662",
+      "osm_id": 3786630
+    },
+    {
+      "ref": "482",
+      "name": "国道482号",
+      "name_en": "National Highway Route 482",
+      "wikidata": "Q6157664",
+      "osm_id": 8372093
+    },
+    {
+      "ref": "483",
+      "name": "国道483号",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 11821992
+    },
+    {
+      "ref": "484",
+      "name": "国道484号",
+      "name_en": "National Highway Route 484",
+      "wikidata": "Q6157671",
+      "osm_id": 9994456
+    },
+    {
+      "ref": "485",
+      "name": "松江だんだん道路",
+      "name_en": "",
+      "wikidata": "Q11531632",
+      "osm_id": 7441644
+    },
+    {
+      "ref": "486",
+      "name": "まきびバイパス",
+      "name_en": "Makibi Bypass",
+      "wikidata": "",
+      "osm_id": 9918207
+    },
+    {
+      "ref": "487",
+      "name": "宇品通り (Ujina Dori Avenue);国道487号",
+      "name_en": "Ujina Dori Avenue",
+      "wikidata": "",
+      "osm_id": 1633454
+    },
+    {
+      "ref": "488",
+      "name": "国道488号",
+      "name_en": "National Highway Route 488",
+      "wikidata": "Q6157680",
+      "osm_id": 4544688
+    },
+    {
+      "ref": "489",
+      "name": "国道489号",
+      "name_en": "National Highway Route 489",
+      "wikidata": "Q6157682",
+      "osm_id": 9893745
+    },
+    {
+      "ref": "490",
+      "name": "国道490号",
+      "name_en": "National Highway Route 490",
+      "wikidata": "Q6157688",
+      "osm_id": 4452065
+    },
+    {
+      "ref": "491",
+      "name": "豊田・油谷バイパス",
+      "name_en": "Toyota-Yuya Bypass",
+      "wikidata": "",
+      "osm_id": 9869733
+    },
+    {
+      "ref": "492",
+      "name": "国道492号",
+      "name_en": "National Highway Route 492",
+      "wikidata": "Q6157694",
+      "osm_id": 36085
+    },
+    {
+      "ref": "493",
+      "name": "国道493号",
+      "name_en": "National Highway Route 493",
+      "wikidata": "Q262912",
+      "osm_id": 31622
+    },
+    {
+      "ref": "494",
+      "name": "国道494号",
+      "name_en": "National Highway Route 494",
+      "wikidata": "Q6157698",
+      "osm_id": 1597628
+    },
+    {
+      "ref": "495",
+      "name": "竹並バイパス",
+      "name_en": "Takenami Bypass",
+      "wikidata": "",
+      "osm_id": 9498346
+    },
+    {
+      "ref": "496",
+      "name": "豊津犀川バイパス",
+      "name_en": "Toyotsu-Saigawa Bypass",
+      "wikidata": "",
+      "osm_id": 9584426
+    },
+    {
+      "ref": "497",
+      "name": "今宿道路 (福岡前原有料道路)",
+      "name_en": "",
+      "wikidata": "Q11376882",
+      "osm_id": 9361962
+    },
+    {
+      "ref": "498",
+      "name": "国道498号",
+      "name_en": "National Highway Route 498",
+      "wikidata": "Q6157706",
+      "osm_id": 9364396
+    },
+    {
+      "ref": "499",
+      "name": "国道499号",
+      "name_en": "National Highway Route 499",
+      "wikidata": "Q6157709",
+      "osm_id": 9365393
+    },
+    {
+      "ref": "500",
+      "name": "南畑バイパス",
+      "name_en": "South-Hatake Bypass",
+      "wikidata": "",
+      "osm_id": 9586921
+    },
+    {
+      "ref": "501",
+      "name": "国道501号",
+      "name_en": "National Highway Route 501",
+      "wikidata": "Q6157713",
+      "osm_id": 9593068
+    },
+    {
+      "ref": "502",
+      "name": "岡城バイパス",
+      "name_en": "Okajou Bypass",
+      "wikidata": "",
+      "osm_id": 9623205
+    },
+    {
+      "ref": "503",
+      "name": "国道503号",
+      "name_en": "National Highway Route 503",
+      "wikidata": "Q6157718",
+      "osm_id": 9852047
+    },
+    {
+      "ref": "504",
+      "name": "北薩横断道路",
+      "name_en": "",
+      "wikidata": "Q11403983",
+      "osm_id": 8043875
+    },
+    {
+      "ref": "",
+      "name": "国道158号",
+      "name_en": "National Highway Route 158",
+      "wikidata": "Q6156830",
+      "osm_id": 31352
+    },
+    {
+      "ref": "E56",
+      "name": "中村宿毛道路",
+      "name_en": "",
+      "wikidata": "Q11365523",
+      "osm_id": 7372352
+    },
+    {
+      "ref": "E9",
+      "name": "鳥取西道路",
+      "name_en": "Tottori West Road",
+      "wikidata": "",
+      "osm_id": 8403859
+    },
+    {
+      "ref": "E7",
+      "name": "仁賀保本荘道路",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 8886431
+    },
+    {
+      "ref": "E13",
+      "name": "米沢南陽道路",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 8910158
+    },
+    {
+      "ref": "E45",
+      "name": "尾肝要道路",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 9093605
+    },
+    {
+      "ref": "E35",
+      "name": "西九州自動車道",
+      "name_en": "Nishikyushu Expressway",
+      "wikidata": "Q6157703",
+      "osm_id": 9361963
+    },
+    {
+      "ref": "E34",
+      "name": "ながさき出島道路",
+      "name_en": "Nagasaki Dejima Toll Road",
+      "wikidata": "Q11274148",
+      "osm_id": 9365396
+    },
+    {
+      "ref": "E16",
+      "name": "横浜横須賀道路金沢支線",
+      "name_en": "",
+      "wikidata": "",
+      "osm_id": 9525399
+    }
+  ]
+}
