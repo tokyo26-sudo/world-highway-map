@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>世界の国道マップ / World Highway Map</title>
+<title>世界の国道マップ / World Highway Map v0.0.1</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+JP:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -178,7 +178,7 @@ select:focus { outline: none; border-color: var(--accent); }
 #statusbar.ok { color: var(--road); }
 
 /* MAP */
-#map { flex: 1; }
+#map { flex: 1; width: 100%; height: 100%; min-height: 0; }
 .leaflet-container { background: #0f0f18 !important; }
 .leaflet-control-attribution { background: rgba(10,10,15,0.8) !important; color: var(--text3) !important; font-size: 9px !important; }
 .leaflet-control-attribution a { color: var(--text3) !important; }
@@ -220,7 +220,7 @@ select:focus { outline: none; border-color: var(--accent); }
 
 <div id="header">
   <h1 id="title-main">世界の国道マップ</h1>
-  <span class="sub" id="title-sub">WORLD HIGHWAY MAP</span>
+  <span class="sub" id="title-sub">WORLD HIGHWAY MAP · v0.0.1</span>
   <button id="lang-toggle" onclick="toggleLang()">EN</button>
 </div>
 
@@ -338,7 +338,7 @@ let lang = 'ja';
 const I18N = {
   ja: {
     title: '世界の国道マップ',
-    sub: 'WORLD HIGHWAY MAP',
+    sub: 'WORLD HIGHWAY MAP · v0.0.1',
     lbl_country: '国を選ぶ',
     lbl_type: '道路タイプ',
     lbl_map: '地図レイヤー',
