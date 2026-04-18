@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>世界の国道マップ / World Highway Map v0.0.1</title>
+<title>世界の国道マップ / World Highway Map v0.0.2</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+JP:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -220,7 +220,7 @@ select:focus { outline: none; border-color: var(--accent); }
 
 <div id="header">
   <h1 id="title-main">世界の国道マップ</h1>
-  <span class="sub" id="title-sub">WORLD HIGHWAY MAP · v0.0.1</span>
+  <span class="sub" id="title-sub">WORLD HIGHWAY MAP · v0.0.2</span>
   <button id="lang-toggle" onclick="toggleLang()">EN</button>
 </div>
 
@@ -338,7 +338,7 @@ let lang = 'ja';
 const I18N = {
   ja: {
     title: '世界の国道マップ',
-    sub: 'WORLD HIGHWAY MAP · v0.0.1',
+    sub: 'WORLD HIGHWAY MAP · v0.0.2',
     lbl_country: '国を選ぶ',
     lbl_type: '道路タイプ',
     lbl_map: '地図レイヤー',
@@ -666,41 +666,68 @@ async function selectRoute(cc, ref, btn) {
   setStatus(t('loading'), 'loading');
   showLoading(true);
 
+  // くにのbboxをつくるデスヨ（クエリをはやくするデスネ）
+  const BBOX = {
+    JP:'30.0,129.0,45.5,146.0', CN:'18.0,73.5,53.5,135.0', KR:'33.0,124.5,38.5,130.0',
+    TW:'21.5,119.5,25.5,122.5', IN:'8.0,68.0,37.0,97.5', TH:'5.5,97.5,20.5,105.7',
+    VN:'8.5,102.0,23.5,110.0', ID:'-11.0,95.0,6.0,141.0',
+    DE:'47.0,5.8,55.0,15.1', FR:'41.5,-5.0,51.5,10.0', GB:'49.5,-8.0,61.0,2.0',
+    IT:'36.5,6.5,47.5,18.5', ES:'36.0,-9.5,44.0,4.5', NL:'50.5,3.2,53.5,7.3',
+    PL:'49.0,14.0,55.0,24.5', AT:'46.5,9.5,48.8,17.2', CH:'45.8,5.9,47.8,10.5',
+    SE:'55.5,10.5,69.0,24.5', NO:'57.5,4.0,71.5,31.0', FI:'59.5,19.5,70.0,32.0',
+    PT:'37.0,-9.5,42.0,-6.0', BE:'49.5,2.5,51.5,6.5',
+    US:'24.0,-125.0,49.5,-66.5', CA:'42.0,-141.0,83.0,-52.0', MX:'14.5,-118.5,32.5,-86.5',
+    BR:'-33.5,-74.0,5.5,-34.0', AR:'-55.0,-74.0,-21.5,-53.5', CL:'-56.0,-76.0,-17.0,-66.0',
+    CO:'-4.5,-79.0,13.5,-66.5', AU:'-44.0,113.0,-10.0,154.0', NZ:'-47.5,166.0,-34.0,178.5',
+    TR:'35.5,25.5,42.5,44.5', ZA:'-35.0,16.5,-22.0,33.0', MA:'27.5,-13.5,36.0,-1.0',
+    EG:'22.0,24.5,31.5,37.0', CZ:'48.5,12.0,51.0,18.9', HU:'45.7,16.0,48.6,23.0',
+    RO:'43.5,20.0,48.5,30.0', GR:'35.0,19.5,42.0,28.5'
+  };
+  const bbox = BBOX[cc] || '';
+  const bboxFilter = bbox ? `(${bbox})` : '';
+
   try {
-    const query = `[out:json][timeout:30];
-relation["route"="road"]["ref"="${ref}"]["network"="${network}"];
-out geom;`;
-
-    const res = await fetch('https://overpass-api.de/api/interpreter', {
-      method:'POST', body:'data='+encodeURIComponent(query)
-    });
-    const data = await res.json();
-
     let layers = [];
 
-    if (data.elements && data.elements.length > 0) {
-      data.elements.forEach(rel => {
+    // ①networkタグつきでさがすデスヨ（bboxつき）
+    const q1 = bbox
+      ? `[out:json][timeout:25];relation["route"="road"]["ref"="${ref}"]["network"="${network}"]${bboxFilter};out geom;`
+      : `[out:json][timeout:25];relation["route"="road"]["ref"="${ref}"]["network"="${network}"];out geom;`;
+    const r1 = await fetch('https://overpass-api.de/api/interpreter',{method:'POST',body:'data='+encodeURIComponent(q1)});
+    const d1 = await r1.json();
+    if (d1.elements) d1.elements.forEach(rel => {
+      if (rel.members) rel.members.forEach(m => {
+        if (m.type==='way' && m.geometry)
+          layers.push(L.polyline(m.geometry.map(p=>[p.lat,p.lon]),{color:'#4a9eff',weight:4,opacity:0.9}));
+      });
+    });
+
+    // ②networkなしのrelationでさがすデスヨ（bboxつき）
+    if (layers.length === 0) {
+      const q2 = bbox
+        ? `[out:json][timeout:25];relation["route"="road"]["ref"="${ref}"]${bboxFilter};out geom;`
+        : `[out:json][timeout:25];relation["route"="road"]["ref"="${ref}"];out geom;`;
+      const r2 = await fetch('https://overpass-api.de/api/interpreter',{method:'POST',body:'data='+encodeURIComponent(q2)});
+      const d2 = await r2.json();
+      if (d2.elements) d2.elements.forEach(rel => {
         if (rel.members) rel.members.forEach(m => {
-          if (m.type==='way' && m.geometry) {
-            layers.push(L.polyline(m.geometry.map(p=>[p.lat,p.lon]), {
-              color:'#4a9eff', weight:4, opacity:0.9
-            }));
-          }
+          if (m.type==='way' && m.geometry)
+            layers.push(L.polyline(m.geometry.map(p=>[p.lat,p.lon]),{color:'#4a9eff',weight:4,opacity:0.9}));
         });
       });
     }
 
-    // フォールバック：wayで直接探す
+    // ③wayをちょくせつさがすデスヨ（bboxつき）
     if (layers.length === 0) {
-      const q2 = `[out:json][timeout:30];
+      const q3 = `[out:json][timeout:25][bbox:${bbox || '-90,-180,90,180'}];
 (
   way["highway"]["ref"="${ref}"]["network"="${network}"];
   way["highway"~"motorway|trunk|primary"]["ref"="${ref}"];
 );
 out geom;`;
-      const r2 = await fetch('https://overpass-api.de/api/interpreter',{method:'POST',body:'data='+encodeURIComponent(q2)});
-      const d2 = await r2.json();
-      if (d2.elements) d2.elements.forEach(w => {
+      const r3 = await fetch('https://overpass-api.de/api/interpreter',{method:'POST',body:'data='+encodeURIComponent(q3)});
+      const d3 = await r3.json();
+      if (d3.elements) d3.elements.forEach(w => {
         if (w.geometry) layers.push(L.polyline(w.geometry.map(p=>[p.lat,p.lon]),{color:'#4a9eff',weight:4,opacity:0.9}));
       });
     }
