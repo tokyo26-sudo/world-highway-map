@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>世界の国道マップ / World Highway Map v0.0.2</title>
+<title>世界の国道マップ / World Highway Map v0.0.3</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+JP:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -338,7 +338,7 @@ let lang = 'ja';
 const I18N = {
   ja: {
     title: '世界の国道マップ',
-    sub: 'WORLD HIGHWAY MAP · v0.0.2',
+    sub: 'WORLD HIGHWAY MAP · v0.0.3',
     lbl_country: '国を選ぶ',
     lbl_type: '道路タイプ',
     lbl_map: '地図レイヤー',
@@ -402,8 +402,9 @@ function applyLang() {
 // ============================================================
 const COUNTRIES = {
   JP: { name:'日本', name_en:'Japan', center:[36.5,138], zoom:5,
-    motorway:{ network:'JP:expressway', refs:['E1','E2','E3','E4','E5','E6','E7','E8','E9','E10','E11','E12','E14','E16','E17','E18','E19','E20','E25','E26','E27','E28','E30','E32','E34','E35','E36','E37','E38','E41','E42','E45','E46','E48','E50','E52','E54','E56','E58','E65','E66','E67','E69','E70','E72','E75','E76','E77','E78','E80','E83','E85','E86','E87','E88','E89','E90','E91','E93','E94'] },
-    national:{ network:'JP:national', refs:[...Array.from({length:58},(_,i)=>`${i+1}`),'101','102','103','104','105','106','107','108','109','110','111','112','113','114','115','116','117','118','119','120'] }
+    useJson: true,
+    motorway:{ network:'JP:E', refs:[], routes:[] },
+    national:{ network:'JP:national', refs:[], routes:[] }
   },
   CN: { name:'中国', name_en:'China', center:[35,105], zoom:4,
     motorway:{ network:'CN:expressway', refs:['G1','G2','G3','G4','G5','G6','G7','G10','G11','G15','G20','G25','G30','G35','G40','G42','G45','G50','G55','G60','G65','G70','G75','G76','G78','G80'] },
@@ -578,6 +579,7 @@ let map, baseTile = null, routeLayer = null;
 let currentLayerId = 'osm';
 let currentType = 'motorway';
 let selectedRouteBtn = null;
+const jsonCache = {};
 
 // ============================================================
 // 初期化
@@ -586,6 +588,22 @@ window.addEventListener('load', () => {
   map = L.map('map', { zoomControl:true }).setView([20, 10], 2);
   baseTile = L.tileLayer(LAYERS.osm.url, { attribution: LAYERS.osm.attr, maxZoom:18 }).addTo(map);
 });
+
+// ============================================================
+// JSONよみこみ
+// ============================================================
+async function loadCountryJson(cc) {
+  if (jsonCache[cc]) return jsonCache[cc];
+  try {
+    const res = await fetch(`data/${cc}.json`);
+    if (!res.ok) return null;
+    const data = await res.json();
+    jsonCache[cc] = data;
+    return data;
+  } catch(e) {
+    return null;
+  }
+}
 
 // ============================================================
 // 道路タイプ
@@ -600,10 +618,10 @@ function setType(type) {
 // ============================================================
 // 国選択
 // ============================================================
-function loadRouteList() {
+async function loadRouteList() {
   const cc = document.getElementById('country-sel').value;
   const list = document.getElementById('route-list');
-  list.innerHTML = '';
+  list.innerHTML = `<span class="route-empty">読み込み中...</span>`;
   selectedRouteBtn = null;
   if (routeLayer) { map.removeLayer(routeLayer); routeLayer = null; }
   setStatus('—');
@@ -616,15 +634,6 @@ function loadRouteList() {
   const cfg = COUNTRIES[cc];
   if (!cfg) return;
 
-  const refs = cfg[currentType]?.refs || [];
-  refs.forEach(ref => {
-    const btn = document.createElement('button');
-    btn.className = 'route-btn';
-    btn.textContent = ref;
-    btn.onclick = () => selectRoute(cc, ref, btn);
-    list.appendChild(btn);
-  });
-
   map.setView(cfg.center, cfg.zoom);
 
   // 古地図ボタンの有効/無効
@@ -633,7 +642,43 @@ function loadRouteList() {
     b.style.opacity = isJP ? '1' : '0.3';
     b.style.pointerEvents = isJP ? 'auto' : 'none';
   });
-  document.getElementById('hist-note').style.opacity = '1';
+
+  // JSONがあるくにはよみこむデスヨ
+  let routes = [];
+  if (cfg.useJson) {
+    const data = await loadCountryJson(cc);
+    if (data) {
+      const typeKey = currentType === 'motorway' ? 'expressway' : 'national';
+      routes = data[typeKey] || [];
+      // COUNTRIESにもセットするデスヨ（クエリのnetworkにつかう）
+      if (currentType === 'motorway' && data.expressway?.length > 0) {
+        cfg.motorway.routes = data.expressway;
+      }
+      if (currentType === 'national' && data.national?.length > 0) {
+        cfg.national.routes = data.national;
+      }
+    }
+  } else {
+    const refs = cfg[currentType]?.refs || [];
+    routes = refs.map(r => ({ ref: r, name: '', name_en: '' }));
+  }
+
+  list.innerHTML = '';
+  if (routes.length === 0) {
+    list.innerHTML = `<span class="route-empty">${t('empty')}</span>`;
+    return;
+  }
+
+  routes.forEach(route => {
+    const ref = typeof route === 'string' ? route : route.ref;
+    const name = typeof route === 'object' ? (route.name || '') : '';
+    const btn = document.createElement('button');
+    btn.className = 'route-btn';
+    btn.textContent = ref;
+    btn.title = name;
+    btn.onclick = () => selectRoute(cc, ref, name, btn);
+    list.appendChild(btn);
+  });
 }
 
 // ============================================================
@@ -653,7 +698,7 @@ function setLayer(id) {
 // ============================================================
 // 路線選択
 // ============================================================
-async function selectRoute(cc, ref, btn) {
+async function selectRoute(cc, ref, name, btn) {
   if (selectedRouteBtn) selectedRouteBtn.classList.remove('active');
   btn.classList.add('active');
   selectedRouteBtn = btn;
@@ -746,6 +791,7 @@ out geom;`;
       map.fitBounds(b, {padding:[40,40]});
     }
     setStatus(t('ok', ref, cc, layers.length), 'ok');
+    if (name) setStatus(`${name} (${ref})`, 'ok');
 
   } catch(e) {
     showLoading(false);
